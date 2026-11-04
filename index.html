@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juanes Rojas — Editor de video</title>
+  <meta name="description" content="Portafolio de editor de video para creadores digitales y marcas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de progreso tipo "playhead" de timeline -->
+  <div class="playhead" aria-hidden="true"><span id="playheadBar"></span></div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#inicio">Juanes Rojas</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menú</button>
+    <nav class="nav__menu" id="navMenu">
+      <a href="#trabajo">Trabajo</a>
+      <a href="#resenas">Reseñas</a>
+      <a href="#faq">FAQ</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <!-- <a class="btn btn--small" href="#contacto">Trabajemos juntos</a> -->
+    </nav>
+  </header>
+
+  <main>
+    <div class="stage">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <p class="hero__role">Editor de video y creador audiovisual</p>
+      <h1 class="hero__title">Videos que la gente termina de ver.</h1>
+      <p class="hero__lead">Convierto material en bruto en piezas con ritmo, pensadas para retención en cortos, YouTube y anuncios.</p>
+      <div class="hero__cta">
+        <!-- <a class="btn" href="#contacto">Pedir propuesta</a> -->
+        <a class="btn btn--ghost" href="#trabajo">Ver portafolio</a>
+      </div>
+
+      <dl class="stats">
+        <div><dt>Visitas generadas</dt><dd>+7M</dd></div>
+        <div><dt>En el sector</dt><dd>1 año</dd></div>
+        <div><dt>Disponibilidad</dt><dd>Remoto</dd></div>
+      </dl>
+    </section>
+
+    <!-- CLIENTES (marquee) -->
+<section class="clients" id="clientes" aria-label="Clientes">
+  <h2 class="clients__title">He trabajado con</h2>
+
+  <div class="clients__grid">
+    <a class="client-card" href="https://www.tiktok.com/@soycaarlos__" target="_blank" rel="noopener">
+      <img class="client-card__img" src="/images/tkphoto.jpeg" alt="Perfil de SoyCarlosc" width="72" height="72" loading="lazy">
+      <div class="client-card__body">
+        <h3>SoyCarlosc</h3>
+        <p class="client-card__platform">TikTok</p>
+      </div>
+      <p class="client-card__stat"><strong>3.1K</strong> Seguidores</p>
+      <span class="client-card__link">Ver canal ↗</span>
+    </a>
+
+    <a class="client-card" href="https://www.youtube.com/@ElJuanes05" target="_blank" rel="noopener">
+      <img class="client-card__img" src="/images/ytphoto.jpg" alt="Perfil de ElJuanes" width="72" height="72" loading="lazy">
+      <div class="client-card__body">
+        <h3>ElJuanes</h3>
+        <p class="client-card__platform">YouTube</p>
+      </div>
+      <p class="client-card__stat"><strong>1.3K</strong> Suscriptores</p>
+      <span class="client-card__link">Ver canal ↗</span>
+    </a>
+  </div>
+</section>
+
+  </div>
+</section>
+</div>
+
+
+<!-- TRABAJO -->
+<section class="section" id="trabajo">
+  <h2 class="section__title">Trabajo seleccionado</h2>
+
+<!-- ===== FORMATO CORTO (6) ===== -->
+<div class="work-group">
+  <h3 class="work-group__title">Formato corto</h3>
+  <p class="work-group__lead">Ediciones verticales con ritmo, subtítulos y recursos visuales que atrapan al espectador, todo en base a lo que el cliente o marca quiera llegar.</p>
+
+  <div class="works works--short">
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7681749800450149640">
+      <button class="work__thumb" aria-label="Reproducir: Corto 1">
+        <img src="/images/shaolin2.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>Shaolin Soccer 2</h4>
+    </article>
+
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7679145040584772882">
+      <button class="work__thumb" aria-label="Reproducir: Corto 2">
+        <img src="/images/shaolin1.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>Shaolin Soccer 1</h4>
+    </article>
+
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7631763750718115093">
+      <button class="work__thumb" aria-label="Reproducir: Corto 3">
+        <img src="/images/container.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>Review Comida</h4>
+    </article>
+
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7685816104152829191">
+      <button class="work__thumb" aria-label="Reproducir: Corto 4">
+        <img src="/images/colombia.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>Colombia Antes vs Ahora</h4>
+    </article>
+
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7625715087138966792">
+      <button class="work__thumb" aria-label="Reproducir: Corto 5">
+        <img src="/images/trabajos.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>El de los mil trabajos</h4>
+    </article>
+
+    <article class="work" data-tiktok="https://www.tiktok.com/@soycaarlos__/video/7382997290723593477">
+      <button class="work__thumb" aria-label="Reproducir: Corto 6">
+        <img src="/images/viral.png" alt="" loading="lazy">
+        <span class="work__play">▶</span>
+      </button>
+      <h4>VIDEO VIRAL (5M+)</h4>
+    </article>
+  </div>
+</div>
+
+  <!-- ===== FORMATO LARGO (3) ===== -->
+  <div class="work-group">
+    <h3 class="work-group__title">Formato largo</h3>
+    <p class="work-group__lead">Videos de YouTube con narrativa, ritmo y recursos que mantienen la atención.</p>
+
+    <div class="works works--long">
+      <article class="work" data-video="Dfg5LLv3fng" data-format="long">
+        <button class="work__thumb" aria-label="Reproducir: Proyecto destacado">
+          <img src="/images/villaleiva2.jpg" alt="" loading="lazy">
+          <span class="work__play">▶</span>
+        </button>
+        <p class="work__meta">YouTube</p>
+        <h4>Proyecto destacado</h4>
+      </article>
+
+      <article class="work" data-video="D3Ry5wUVBh0" data-format="long">
+        <button class="work__thumb" aria-label="Reproducir: Playa Blanca">
+          <img src="/images/playa blanca.jpg" alt="" loading="lazy">
+          <span class="work__play">▶</span>
+        </button>
+        <p class="work__meta">YouTube</p>
+        <h4>Vlogs de viajes</h4>
+      </article>
+
+      <article class="work" data-video="vL67JTzsgds" data-format="long">
+        <button class="work__thumb" aria-label="Reproducir: Video largo 3">
+          <img src="/images/osmo.jpg" alt="" loading="lazy">
+          <span class="work__play">▶</span>
+        </button>
+        <p class="work__meta">YouTube</p>
+        <h4>Unboxing & Reviews</h4>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <!-- RESEÑAS -->
+<section class="section" id="resenas">
+  <h2 class="section__title">Reseñas</h2>
+  <p class="section__lead">De clientes y de personas que ven mi trabajo.</p>
+
+  <div class="reviews-marquee" id="reviewsMarquee">
+    <div class="reviews-track" id="reviewsTrack">
+
+      <!-- ===== CLIENTE (con foto) ===== -->
+      <article class="review-card review-card--client">
+        <header class="review-card__head">
+          <img class="review-card__avatar" src="/images/tkphoto.jpeg" alt="Foto de SoyCarlosc" width="44" height="44" loading="lazy">
+          <div class="review-card__who">
+            <strong>SoyCarlosc</strong>
+            <span>TikTok · 3.1K seguidores</span>
+          </div>
+          <span class="review-card__score">10/10</span>
+        </header>
+        <p class="review-card__text">Bro, no tenía ni idea de lo difícil que es editar videos como los que usted hace. Mis respetos, es una locura, usted es un crack editando.</p>
+        <footer class="review-card__tags">
+          <span class="tag tag--client">Cliente</span>
+          <span class="tag">TikTok</span>
+        </footer>
+      </article>
+
+      <!-- ===== ESPECTADOR (con ícono) ===== -->
+      <article class="review-card review-card--viewer">
+        <header class="review-card__head">
+          <span class="review-card__avatar review-card__avatar--letter" aria-hidden="true">O</span>
+          <div class="review-card__who">
+            <strong>Omar</strong>
+            <span>TikTok</span>
+          </div>
+          <span class="tag tag--viewer">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            Espectador
+          </span>
+        </header>
+        <p class="review-card__text">Pero y esa edición? locura!!</p>
+      </article>
+
+      <!-- ===== CLIENTE ===== -->
+      <article class="review-card review-card--client">
+        <header class="review-card__head">
+          <img class="review-card__avatar" src="/images/ytphoto.jpg" alt="Foto de ElJuanes" width="44" height="44" loading="lazy">
+          <div class="review-card__who">
+            <strong>ElJuanes</strong>
+            <span>YouTube · 8M suscriptores</span>
+          </div>
+          <span class="review-card__score">10/10</span>
+        </header>
+        <p class="review-card__text">Excelente comunicación y entregas siempre a tiempo. Volvería a trabajar con él sin dudar.</p>
+        <footer class="review-card__tags">
+          <span class="tag tag--client">Cliente</span>
+          <span class="tag">YouTube</span>
+        </footer>
+      </article>
+
+      <!-- ===== ESPECTADOR ===== -->
+      <article class="review-card review-card--viewer">
+        <header class="review-card__head">
+          <span class="review-card__avatar review-card__avatar--letter" aria-hidden="true">M</span>
+          <div class="review-card__who">
+            <strong>Mario Rosales</strong>
+            <span>YouTube</span>
+          </div>
+          <span class="tag tag--viewer">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            Espectador
+          </span>
+        </header>
+        <p class="review-card__text">Poco se habla de la edición tan limpia que tiene este vídeo, me ha encantado, sigue así</p>
+      </article>
+
+      <!-- ===== CLIENTE (sin puntaje, ejemplo) ===== -->
+      <article class="review-card review-card--client">
+        <header class="review-card__head">
+          <img class="review-card__avatar" src="/images/profe.jpeg" alt="Foto de Cliente Tres" width="44" height="44" loading="lazy">
+          <div class="review-card__who">
+            <strong>Profe Youssef</strong>
+            <span>Profesor de Instituto</span>
+          </div>
+        </header>
+        <p class="review-card__text">Me has ayudado editando un vídeo educativo y ha quedado increíble, te recomendaré </p>
+        <footer class="review-card__tags">
+          <span class="tag tag--client">Cliente</span>
+          <span class="tag"></span>
+        </footer>
+      </article>
+
+      <!-- ===== ESPECTADOR ===== -->
+      <article class="review-card review-card--viewer">
+        <header class="review-card__head">
+          <span class="review-card__avatar review-card__avatar--letter" aria-hidden="true">S</span>
+          <div class="review-card__who">
+            <strong>Sara</strong>
+            <span>TikTok</span>
+          </div>
+          <span class="tag tag--viewer">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            Espectador
+          </span>
+        </header>
+        <p class="review-card__text">Pero bueno, y esa edición? cada video me sorprendo mas</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <!-- SOBRE MI -->
+    <section class="section about" id="sobre-mi">
+      <h2 class="section__title">Sobre mí</h2>
+      <div class="about__grid">
+        <p>Soy editor de video especializado en contenido dinámico que atrapa al espectador, logrando así buenas
+          metricas de retención para creadores. Aprendí a editar por mi cuenta y gracias a distintos proyectos 
+          personales y de clientes he aprendido técnicas de edición que me han hecho mejorar en cuanto rendimiento y edición.
+          Hoy trabajo con proyectos de todo tipo, soy un editor que se le mide a cualquier tipo de reto. También estoy adaptandome a la actualidad
+        usando herramientas IA para lograr mejores resultados en algunos detalles y tambien acortando tiempos de entrega.</p>
+        <ul class="about__facts">
+          <li><span>Software</span> CapCut, Davinci Resolve, Premiere Pro, Filmora</li>
+          <li><span>Especialidad</span> Cortos, formato largo, y anuncios</li>
+          <li>
+          <span>Estado</span>
+          <strong class="status status--available">
+            <i class="status__dot" aria-hidden="true"></i>
+            Disponible para nuevos proyectos
+          </strong>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <h2 class="section__title">Preguntas frecuentes</h2>
+      <div class="faq">
+        <details>
+          <summary>¿Qué programas utilizas para editar?</summary>
+          <p>Principalmente CapCut Desktop, Premiere Pro, Davinci Resolve Studio, Canva, según el tipo de proyecto.</p>
+        </details>
+        <details>
+          <summary>¿Cuáles son los plazos de entrega?</summary>
+          <p>Cortos: en unas horas a 2 días hábiles, dependiendo del tipo de edición. Formato largo: 3 días hábiles tras recibir el material.</p>
+        </details>
+        <details>
+          <summary>¿Cuántas rondas de revisión incluye?</summary>
+          <p>Cada propuesta incluye las rondas de correcciones necesarias. La idea es que el cliente termine satisfecho por el resultado.</p>
+        </details>
+        <details>
+          <summary>¿Cómo envío el material en bruto?</summary>
+          <p>Por Google Drive, Dropbox o WeTransfer, siempre en la mejor calidad posible.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACTO
+    <section class="section contact" id="contacto">
+      <h2 class="section__title">Trabajemos juntos</h2>
+      <p class="section__lead">Cuéntame sobre tu proyecto y te respondo con una propuesta.</p>
+
+      <form class="form" id="contactForm" novalidate>
+        <label>Nombre
+          <input type="text" name="nombre" required autocomplete="name">
+        </label>
+        <label>Email
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label>¿Qué tipo de video necesitas?
+          <select name="tipo" required>
+            <option value="">Selecciona una opción</option>
+            <option>Formato corto (desde 50 USD)</option>
+            <option>Formato largo (desde 300 USD)</option>
+            <option>Otro / personalizado</option>
+          </select>
+        </label>
+        <label>Cuéntame tu idea
+          <textarea name="mensaje" rows="5" required></textarea>
+        </label>
+        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        <button class="btn" type="submit">Enviar solicitud</button>
+      </form>
+    </section> -->
+  </main>
+
+  <footer class="footer">
+    <p><strong>Juanes Rojas</strong> · Editor de video</p>
+    <p class="footer__links">
+      <a href="https://www.instagram.com/eljuanesss/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@eljuannes" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.youtube.com/@ElJuanes05" target="_blank" rel="noopener">YouTube</a>
+      <p>Contacto: juanesprograma@gmail.com</p>
+    </p>
+    <p class="footer__copy">© 2026 Juanes Rojas. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Modal de video -->
+  <div class="modal" id="videoModal" hidden>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-label="Reproductor de video">
+      <button class="modal__close" id="modalClose" aria-label="Cerrar">✕</button>
+      <div class="modal__frame" id="modalFrame"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
